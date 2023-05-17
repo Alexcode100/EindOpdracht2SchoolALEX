@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Onkunde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Onkunde</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="paniek.html">Er heerst paniek...</a>
+        </nav>
+    </header>
+    <main>
+       
+        <form action="onkunde_resultaat.php" method="post">
+            <label for="kunnen">Wat zou je graag willen kunnen?</label>
+            <input type="text" id="kunnen" name="kunnen" required>
+
+            <label for="persoon">Met welke persoon kun je goed opschieten?</label>
+            <input type="text" id="persoon" name="persoon" required>
+
+            <label for="getal">Wat is je favoriete getal?</label>
+            <input type="text" id="getal" name="getal" required>
+
+            <label for="vakantie">Wat heb je altijd bij je als je op vakantie gaat?</label>
+            <input type="text" id="vakantie" name="vakantie" required>
+
+            <label for="eigenschap_goed">Wat is je beste persoonlijke eigenschap?</label>
+            <input type="text" id="eigenschap_goed" name="eigenschap_goed" required>
+
+            <label for="eigenschap_slecht">Wat is je slechtste persoonlijke eigenschap?</label>
+            <input type="text" id="eigenschap_slecht" name="eigenschap_slecht" required>
+
+            <label for="ergste">Wat is het ergste dat je kan overkomen?</label>
+            <input type="text" id="ergste" name="ergste" required>
+
+            <input type="submit" value="Versturen">
+        </form>
+
+    </main>
+    <footer>
+        &copy; 2023 Jouw Naam
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Er heerst paniek...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Er heerst paniek...</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="onkunde.html">Onkunde</a>
+        </nav>
+    </header>
+    <main>
+        <form action="paniek_resultaat.php" method="post">
+            <label for="dier">Welk dier zou je nooit als huisdier willen hebben?</label>
+            <input type="text" id="dier" name="dier" required>
+        
+            <label for="persoon">Wie is de belangrijkste persoon in je leven?</label>
+            <input type="text" id="persoon" name="persoon" required>
+        
+            <label for="land">In welk land zou je graag willen wonen?</label>
+            <input type="text" id="land" name="land" required>
+        
+            <label for="vervelen">Wat doe je als je je verveelt?</label>
+            <input type="text" id="vervelen" name="vervelen" required>
+        
+            <label for="speelgoed">Met welk speelgoed speelde je als kind het meest?</label>
+            <input type="text" id="speelgoed" name="speelgoed" required>
+        
+            <label for="docent">Bij welke docent spijbel je het liefst?</label>
+            <input type="text" id="docent" name="docent" required>
+        
+            <label for="geld">Als je €100.000,- had, wat zou je dan kopen?</label>
+            <input type="text" id="geld" name="geld" required>
+        
+            <label for="bezigheid">Wat is je favoriete bezigheid?</label>
+            <input type="text" id="bezigheid" name="bezigheid" required>
+        
+            <input type="submit" value="Versturen">
+        </form>
+    </main>
+    <footer>
+        &copy; 2023 Alexander den Otter
+    </footer>
+</body>
+</html>
